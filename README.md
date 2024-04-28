@@ -56,3 +56,7 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
+
+## Author
+
+- Frontend Mentor - [@nabaraj](https://www.frontendmentor.io/profile/nabaraj)
