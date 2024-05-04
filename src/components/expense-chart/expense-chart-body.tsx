@@ -64,7 +64,7 @@ export const ExpenseChartBody: React.FC<ExpenseChartBodyProps> = (props) => {
   };
 
   return (
-    <div className='bg-white rounded-8 p-8 rounded-2xl'>
+    <main className='bg-white rounded-8 p-8 rounded-2xl'>
       <div className='text-2xl font-bold'>Spending - Last 7 days</div>
       {chartData.length > 0 && (
         <div
@@ -101,6 +101,6 @@ export const ExpenseChartBody: React.FC<ExpenseChartBodyProps> = (props) => {
           <div className='text-brown-medium'>from last month</div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
