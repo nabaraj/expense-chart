@@ -92,7 +92,7 @@ export const ExpenseChartBody: React.FC<ExpenseChartBodyProps> = (props) => {
           })}
         </div>
       )}
-      <div className='footer border-t border-t-brown-medium mt-7 pt-5 flex justify-between'>
+      <div className='footer border-t-2 border-t-brown-medium mt-7 pt-11 pb-3 flex justify-between'>
         <div className='footer-left flex flex-col'>
           <div className='text-brown-medium'>total this month</div>
           <div className='text-4xl font-bold'>${totalPrice}</div>
