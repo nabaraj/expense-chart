@@ -16,7 +16,6 @@ const ChartStick: React.FC<{
   index: number;
 }> = ({ item, today, height, index }) => {
   const [hover, setHover] = useState(false);
-  console.log({ today }, item.day, index);
   const [animatedHeight, setAnimatedHeight] = useState<number | string>(0);
   setTimeout(() => {
     setAnimatedHeight(height);
@@ -70,7 +69,7 @@ export const ExpenseChartBody: React.FC<ExpenseChartBodyProps> = (props) => {
       {chartData.length > 0 && (
         <div
           className='flex justify-between pt-6'
-          style={{ height: getHeight(maxValue + 60, "px") }}
+          style={{ height: getHeight(maxValue + 80, "px") }}
         >
           {chartData.map((item, index) => {
             return (
@@ -84,7 +83,7 @@ export const ExpenseChartBody: React.FC<ExpenseChartBodyProps> = (props) => {
                   height={getHeight(item.amount)}
                   index={index}
                 />
-                <span className='text-brown-medium group-hover:text-brown-dark transition-all duration-500'>
+                <span className='text-brown-medium group-hover:text-brown-dark transition-all duration-500 pt-1'>
                   {item.day}
                 </span>
               </div>
