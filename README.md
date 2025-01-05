@@ -36,8 +36,6 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Live Site URL: [Add live site URL here](https://expense-chart-one.vercel.app/)
